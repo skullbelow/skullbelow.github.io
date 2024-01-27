@@ -68,10 +68,11 @@ body {
 }
 
 .hero {
-  background-image: url('./newanth2.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  /*background-image: url('./newanth2.jpg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');*/ /* Cool static picture idea */
+  background-image: url('./anthotypeanimations.gif?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); /* Cool Gif idea */
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom center;
+  background-position: center; /* Was previously 'bottom center' prior to Patrick changing it*/
   height: 100vh;
   color: #30ee0f8a;
   display: flex;
